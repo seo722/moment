@@ -1,0 +1,112 @@
+body {
+  color: white;
+  background-color: rgb(124, 47, 47);
+  background-size: contain;
+  font-family: Pretendard Regular;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#greeting {
+  font-family: Centaur;
+}
+
+#first-form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 85%;
+}
+
+.box {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  width: 80%;
+  height: 85%;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  z-index: -1;
+  opacity: 90%;
+  border-radius: 30px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  height: 100%;
+  background-position: center;
+  margin-top: 120px;
+  align-items: center;
+}
+
+.right {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border: 1px solid white;
+  border-radius: 3px;
+  outline: none;
+  background-color: transparent;
+  font-size: 0.8rem;
+  font-family: var(--font-en);
+  font-weight: 300;
+  color: var(--text-color);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: inherit;
+  margin-right: 0.5rem;
+}
+
+.form_edit input {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  caret-color: inherit;
+
+  background-color: rgba(255, 255, 255, 0.123);
+  color: #ecbebe;
+  border-radius: 10px;
+}
+
+.form_edit input::placeholder {
+  color: rgba(255, 255, 255, 0.747);
+  text-align: center;
+  font-family: var(--font-en);
+}

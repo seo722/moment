@@ -1,0 +1,40 @@
+#tododiv input {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  caret-color: inherit;
+  background-color: rgba(255, 208, 208, 0.226);
+  color: #ffe8e8;
+  font-family: Pretendard Regular;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#todo-form {
+  padding-left: 6px;
+}
+
+#tododiv input::placeholder {
+  color: rgba(255, 255, 255, 0.747);
+  text-align: center;
+  font-family: cursive;
+}
+
+li {
+  font-family: var(--font-kr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  list-style: none;
+}
+
+ul button {
+  border: none;
+}
+
+ul {
+  padding-left: 10px;
+  text-align: start;
+}

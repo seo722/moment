@@ -1,0 +1,16 @@
+#login-form h1 {
+  font-family: Centaur;
+  text-align: center;
+}
+
+#login-form input {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  caret-color: inherit;
+
+  background-color: rgba(255, 255, 255, 0.123);
+  color: #ecbebe;
+  font-family: Pretendard Regular;
+  text-align: center;
+  border-radius: 10px;
+}
